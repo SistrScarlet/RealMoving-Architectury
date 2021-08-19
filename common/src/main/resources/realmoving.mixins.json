@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.realmoving.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinActionEntity"
+  ],
+  "client": [
+    "MixinClientActionEntity", "MixinActionModel"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
