@@ -36,7 +36,7 @@ public abstract class MixinActionEntity extends LivingEntity implements IActiona
         super(type, worldIn);
     }
 
-    @Inject(at = @At("HEAD"), method = "updateSize", cancellable = true)
+    @Inject(at = @At("HEAD"), method = "updatePose", cancellable = true)
     public void onUpdatePose(CallbackInfo ci) {
         updateClimbing();
         updateCrawling();

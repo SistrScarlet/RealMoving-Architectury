@@ -1,7 +1,7 @@
 package net.realmoving.setup;
 
 import me.shedaniel.architectury.registry.KeyBindings;
-import net.minecraft.client.options.KeyBinding;
+import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
 import net.realmoving.RealMovingMod;
 import org.lwjgl.glfw.GLFW;
