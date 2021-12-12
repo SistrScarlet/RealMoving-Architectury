@@ -1,6 +1,6 @@
 package net.realmoving.setup;
 
-import me.shedaniel.architectury.registry.KeyBindings;
+import dev.architectury.registry.client.keymappings.KeyMappingRegistry;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
 import net.realmoving.RealMovingMod;
@@ -16,7 +16,7 @@ public class ClientSetup {
                 GLFW.GLFW_KEY_V, // The keycode of the key
                 "key.categories.movement" // The translation key of the keybinding's category.
         );
-        KeyBindings.registerKeyBinding(action);
+        KeyMappingRegistry.register(action);
     }
 
 }
