@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "net.realmoving.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "MixinActionEntity"
+  ],
+  "client": [
+    "MixinClientActionEntity", "MixinActionModel"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
