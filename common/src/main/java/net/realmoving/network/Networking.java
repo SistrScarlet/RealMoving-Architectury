@@ -1,6 +1,7 @@
 package net.realmoving.network;
 
-import me.shedaniel.architectury.networking.NetworkManager;
+
+import dev.architectury.networking.NetworkManager;
 
 public class Networking {
 

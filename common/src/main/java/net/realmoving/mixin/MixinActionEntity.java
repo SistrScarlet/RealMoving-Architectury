@@ -150,7 +150,7 @@ public abstract class MixinActionEntity extends LivingEntity implements IActiona
     }
 
     public BlockPos getBaseClimbBlock() {
-        Vec3d look = this.getRotationVector(0, this.yaw);
+        Vec3d look = this.getRotationVector(0, this.getYaw());
         return new BlockPos(getPos().add(look.multiply(0.5D)));
     }
 

@@ -1,33 +1,35 @@
 modLoader = "javafml"
-loaderVersion = "[35,)"
+loaderVersion = "[40,)"
 #issueTrackerURL = ""
-license = "CC0-1.0 License"
+license = "Insert License Here"
 
 [[mods]]
-modId = "realmoving"
+modId = "examplemod"
 version = "${version}"
-displayName = "RealMoving"
-authors = "Sistr"
-description = "新しい動作を追加します。"
+displayName = "Example Mod"
+authors = "Me!"
+description = '''
+This is an example description! Tell everyone what your mod is about!
+'''
 #logoFile = ""
 
-[[dependencies.realmoving]]
+[[dependencies.examplemod]]
 modId = "forge"
 mandatory = true
-versionRange = "[35,)"
+versionRange = "[40,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.realmoving]]
+[[dependencies.examplemod]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.16.2,)"
+versionRange = "[1.18.2,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.realmoving]]
+[[dependencies.examplemod]]
 modId = "architectury"
 mandatory = true
-versionRange = "[1.1.55,)"
+versionRange = "[4.2.50,)"
 ordering = "AFTER"
 side = "BOTH"

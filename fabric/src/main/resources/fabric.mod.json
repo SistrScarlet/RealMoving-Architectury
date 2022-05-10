@@ -16,22 +16,19 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.sistr.realmoving.init.FabricModInit"
+      "net.realmoving.fabric.RealMovingModFabric"
     ],
     "client": [
-      "net.sistr.realmoving.init.FabricClientInit"
+      "net.realmoving.fabric.RealMovingModFabric"
     ]
   },
   "mixins": [
-    "realmoving.mixins.json"
+    "realmoving.mixins.json",
+    "realmoving-common.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.7.4",
     "fabric": "*",
-    "minecraft": ">=1.16.4",
-    "architectury": ">=1.1.55"
-  },
-  "suggests": {
-    "flamingo": "*"
+    "minecraft": ">=1.18.2",
+    "architectury": ">=4.2.50"
   }
 }
